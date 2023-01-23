@@ -1,0 +1,1118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:37.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1681946400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login as an Employee",
+        "description": "",
+        "id": "employee-login-functionalities;login-as-an-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 582780900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 797310200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302024800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click on Login Menu",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Click_on_Login_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33939000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Will see Employee Login Page \"Employee Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Login\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Login_Page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73850400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter Employee user id \"testpilot@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testpilot@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_user_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58515000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter Employee password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462235000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Employee login button",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_click_Employee_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36219200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Will see Employee Home Page \"Welcome Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Home_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee Login Functionalities",
+    "description": "",
+    "id": "employee-login-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Employee_Login_Functionalities.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:41.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1078046700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login as an Employee",
+        "description": "",
+        "id": "verify-employee-logout-functionalities.;login-as-an-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 573602000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1318585100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368258600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click on Login Menu",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Click_on_Login_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31915100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Will see Employee Login Page \"Employee Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Login\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Login_Page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79085400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter Employee user id \"testpilot@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testpilot@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_user_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64711600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter Employee password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393086100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Employee login button",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_click_Employee_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39959000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Will see Employee Home Page \"Welcome Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Home_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 303991800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click Employee Logout button",
+            "match": {
+              "location": "stepDefinitions.Employee_Logout_Functionalities.i_Click_Employee_Logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26927400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Will see Employee Login Page \"Employee Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Login\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Login_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Employee Logout_Functionalities.",
+    "description": "",
+    "id": "verify-employee-logout-functionalities.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Employee_Logout_Functionalities.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:45.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1024915800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login as an Employee",
+        "description": "",
+        "id": "employee-order-list-functionalities;login-as-an-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 581464700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 776243000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280878700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click on Login Menu",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Click_on_Login_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41678800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Will see Employee Login Page \"Employee Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Login\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Login_Page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60115600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter Employee user id \"testpilot@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testpilot@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_user_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53217200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter Employee password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395733000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Employee login button",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_click_Employee_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32558500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Will see Employee Home Page \"Welcome Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Home_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 330009500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I will click Order List button",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_click_Order_List_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41552400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see Order List Page \"Employee Id: 102\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Id: 102\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_see_Order_List_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334548600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click Order Product Menu",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_click_Order_Product_Menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29952200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I will see Product Order page \"Order Product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Order Product\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_see_Product_Order_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92308100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Select Product Name",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_Select_Product_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67540300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter Order Date \"10/10/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10/10/2022\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_Enter_Order_Date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 383108200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click Order Product button",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_click_Order_Product_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31756200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will see Order List Page \"Employee Id: 102\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Id: 102\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_see_Order_List_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320844600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Confirm button",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_click_on_Confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163094400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will refresh page",
+            "match": {
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_refresh_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will see Status \"Confirmed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Confirmed\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.Employee_Order_List_Functionalities.i_will_see_Status(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee Order List Functionalities",
+    "description": "",
+    "id": "employee-order-list-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Employee_Order_List_Functionalities.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:50.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1030820900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login as an Employee",
+        "description": "",
+        "id": "employee-profile-update-verification;login-as-an-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 580417800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 864291100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284909300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click on Login Menu",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Click_on_Login_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41288000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Will see Employee Login Page \"Employee Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee Login\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Login_Page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59499100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter Employee user id \"testpilot@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testpilot@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_user_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59363700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter Employee password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Enter_Employee_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425880500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Employee login button",
+            "match": {
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_click_Employee_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38906100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Will see Employee Home Page \"Welcome Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.Employee_Login_Functionalities.i_Will_see_Employee_Home_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 342950400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click My Profile button",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_click_My_Profile_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25930800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see My Info Page \"My Info\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Info\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_will_see_My_Info_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152815200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will click update info button",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_will_click_update_info_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30949700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I will see Employee Page \"Update Employee Info\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Update Employee Info\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_will_see_Employee_Page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51236800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Will clear contact",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_Will_clear_contact()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49896500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Will enter new contact \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_Will_enter_new_contact(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43285800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Will clear address",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_Will_clear_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51830500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Will update address \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Texas\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_Will_update_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197650300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Will click submit button",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_Will_click_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176583400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click refresh url",
+            "match": {
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_click_refresh_url()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37760400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will see Employee updated contact \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_will_see_Employee_updated_contact(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40188000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I will see Employee updated address \"Texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Texas\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.Employee_Profile_Update_Verifycation.i_will_see_Employee_updated_address(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee profile update verification",
+    "description": "",
+    "id": "employee-profile-update-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Employee_Profile_Update.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:55.319Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1029630500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Landing Page Menu About Us is visible",
+        "description": "",
+        "id": "landing-page-verification;landing-page-menu-about-us-is-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 565089100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 712650600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27408400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify About Us Menu is Visible",
+            "match": {
+              "location": "stepDefinitions.LandingPage_AboutUs_Menu.verify_About_Us_Menu_is_Visible()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Landing page verification",
+    "description": "",
+    "id": "landing-page-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LandingPage_Menu_AboutUs.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-08T18:39:57.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 995165000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Landing Page",
+        "description": "",
+        "id": "landing-page-verification;landing-page",
+        "after": [
+          {
+            "result": {
+              "duration": 568874500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 680193100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Landing Page",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.i_am_in_Landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35934400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify Landing Page Logo is Visible",
+            "match": {
+              "location": "stepDefinitions.Landing_Page_Logo.verify_Landing_Page_Logo_is_Visible()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Landing page verification",
+    "description": "",
+    "id": "landing-page-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Landing_Page_Logo.feature",
+    "tags": []
+  }
+]
